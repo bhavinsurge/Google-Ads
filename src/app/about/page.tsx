@@ -1,9 +1,13 @@
-import React from 'react'
+"use client";
 
-export default function About() {
+import AdUnit from "../ComponentFolder/AdUnit";
+
+export default function HomePage() {
   return (
-    
-        <div>About</div>
-    
-  )
+    <main className="p-4">
+      <h1 className="text-2xl font-bold">Welcome</h1>
+      <p>Here is a test Google Ad:</p>
+      <AdUnit />
+    </main>
+  );
 }
