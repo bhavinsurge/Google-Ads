@@ -32,7 +32,7 @@ export default function RootLayout({
         <Script
           async
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_ID}`}
-          // src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1482287226712974"
+          // src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5975277884852458"
           crossOrigin="anonymous"
         ></Script>
         <Navbar />
